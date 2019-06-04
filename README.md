@@ -8,22 +8,23 @@ Todo:
 -Name Faction
 -Flesh out warehouse
 -Add other faction buildings to appear as the faction expands with your help.
-    ~Hunting camp
-    ~Take Over Prison
+    --Hunting camp.
+    --Take Over Prison.
 
 -Add more interesting missions than just fetch quests.
-   ~Missions to upgrade warehouse aesthetically as well as the security of the building
-   ~Assassinate a member of the Old Guard (Possibly representative in the Free Merchants building)
-   ~Find Lost Friends
+   --Missions to upgrade warehouse aesthetically as well as the security of the building.
+   --Assassinate a member of the Old Guard (Possibly representative in the Free Merchants building).
+   --Find Lost Friends.
 
 -Add other mostly written NPCs
-  ~Hacker
-  ~Junky
-  ~Ex-Prostitute who despite the horror now feels free from the shackles of her previous life.
-  ~Cluster of Primitivists whom reject technology and see this as the perfect time to 'Go back to nature'
-  ~Long time prisoner (Lifer) Who escaped during the chaos and is just glad to be away from those cold grey walls..
+  --Hacker.
+  --Junky.
+  --Ex-Prostitute who despite the horror now feels free from the shackles of her previous life.
+  --Cluster of Primitivists whom reject technology and see this as the perfect time to 'Go back to nature'.
+  --Long time prisoner (Lifer) Who escaped during the chaos and is just glad to be away from those cold grey walls..
 
 -Flesh Out all NPCs
+
 
 -Add Interactions with other factions
   
