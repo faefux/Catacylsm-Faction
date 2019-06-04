@@ -7,10 +7,7 @@
     "class": "NC_SURVIVOR_CHEF",
     "attitude": 0,
     "mission": 7,
-    "chat": "TALK_SQUAT_CHEF",
-    "faction":"robofac",
-    "mission_offered": "MISSION_SQUATTERS_CANNEDGOODS"
-
+    "chat": "TALK_SQUAT_CHEF"
   },
   {
     "type": "talk_topic",
