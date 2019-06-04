@@ -12,42 +12,14 @@
     "wealth": 7500,
     "currency": "NONE",
     "relations": {
-      "free_merchants": {
-        "kill on sight": false,
-        "watch your back": false,
-        "share my stuff": false,
-        "guard your stuff": false,
-        "lets you in": true,
-        "defends your space": false,
-        "knows your voice": true
-      },
-      "old_guard": {
-        "kill on sight": false,
-        "watch your back": false,
-        "share my stuff": false,
-        "guard your stuf": false,
-        "lets you in": false,
-        "defends your space": false,
-        "knows your voice": true
-      },
-      "tacoma_commune": {
-        "kill on sight": false,
-        "watch your back": true,
-        "share my stuff": true,
-        "guard your stuff": true,
-        "lets you in": true,
-        "defends your space": true,
-        "knows your voice": true
-      },
-
       "wasteland_scavengers": {
         "kill on sight": false,
         "watch your back": true,
-        "share my stuff": true,
+        "share my stuff": false,
         "guard your stuff": true,
         "lets you in": true,
         "defends your space": true,
-        "knows your voice": true
+        "knows your voice": false
       },
       "hells_raiders": { "kill on sight": false }
     },
