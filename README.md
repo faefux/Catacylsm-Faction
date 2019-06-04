@@ -8,12 +8,16 @@ Todo:
 -Name Faction
 -Flesh out warehouse
 -Add other faction buildings to appear as the faction expands with your help.
+
     --Hunting camp.
     --Take Over Prison.
 
 -Add more interesting missions than just fetch quests.
-   --Missions to upgrade warehouse aesthetically as well as the security of the building.
+
+   --Missions to upgrade warehouse aesthetically as well as the security of the building
+   
    --Assassinate a member of the Old Guard (Possibly representative in the Free Merchants building).
+   
    --Find Lost Friends.
 
 -Add other mostly written NPCs
