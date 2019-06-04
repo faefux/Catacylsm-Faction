@@ -1,0 +1,89 @@
+[
+  {
+    "id": "MISSION_FIND_OPIATES",
+    "type": "mission_definition",
+    "name": "Find Junk",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 1,
+    "value": 20000,
+    "item": "heroin",
+    "count": 20,
+    "end": {
+      "effect": [
+        { "u_add_var": "Squat_Mission_Junky1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "Can you help a brother out..",
+      "offer": "Hey.... I've not been able to get a fix for a few days now, the crew want me to go out scavanging and earn my keep but i don't feel like i can when i'm this ill.  If you can get me some heroin to keep me ticking over for a few weeks that'd be a massive help.",
+      "accepted": "Thank you!  It's a sensitive issue and i kind of told my friends i was clean, so i'd appreciate it if you didn't tell anyone.",
+      "rejected": "Oh..Okay.",
+      "advice": "Maybe you could check out the pharmacies, they usually have the best stuff.",
+      "inquire": "How is it going? I don't mean to keep bothering you buy i feel like i'm dying here..",
+      "success": "You're Amazing! If there is anything i can do for you, justl et me know!",
+      "success_lie": "You lying motherfucker!",
+      "failure": "..."
+    }
+  },
+   {
+    "id": "MISSION_FIND_GUITAR",
+    "type": "mission_definition",
+    "name": "Find Acoustic Guitar",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 1,
+    "value": 20000,
+    "item": "acoustic_guitar",
+    "count": 1,
+    "end": {
+      "effect": [
+        { "u_add_var": "Squat_Mission_Junky2", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "Keeping our spirits up.",
+      "offer": "Now that i feel well I've been thinking about what i can do too keep our spirits up in here, with all of us sharing this space it can get a little bit tense sometimes. If you could find me a guitar I could start writing some songs and keeping us entertained throughout the long evenings... Maybe further down the line we could even start to put a band together.",
+      "accepted": "Thanks. I don't need you to go out of your way or anything, but if you find one on your travels that'd be nice.",
+      "rejected": "No worries, it's not so important.",
+      "advice": "Maybe check out the pawn shops or a music shop, they should do it. .",
+      "inquire": "Any luck?.",
+      "success": "Wow! this is perfect, thank you!",
+      "success_lie": "And yet you have no guitar..",
+      "failure": "No worries man, like i said, it's not so important."
+    }
+  }, 
+  
+  {
+	    "id": "MISSION_SQUATTERS_CANNEDGOODS",
+	    "type": "mission_definition",
+	    "name": "Find 40 Canned Food",
+	    "goal": "MGOAL_FIND_ITEM_GROUP",
+	    "difficulty": 3,
+	    "value": 400000,
+	    "item_group": "foodintincan",
+	    "count": 40,
+	    "required_container": "can_food",
+	    "remove_container": true,
+	    "empty_container": "can_food_unsealed",
+	    "end":  {
+	      "effect": [
+	        { "u_add_var": "Squatters_Missions_Chef1", "type": "mission", "context": "flag", "value": "yes" }
+	      ]
+	    },
+	    "origins": [ "ORIGIN_SECONDARY" ],
+	    "followup": "MISSION_FREE_MERCHANTS_EVAC_4",
+	    "dialogue": {
+	      "describe": "We need help...",
+	      "offer": "We've got a bit of food around but we're still only a couple of bad days away from a serious problem. We need a stockpile to avoid that. It would have to be made of something that would be long lasting though, so canned food's the way to go. Get us about 40 cans and we should be able to ride out anything that comes our way.",
+	      "accepted": "It'll take a load off my shoulders if I can finally stop worrying about this.",
+	      "rejected": "We'll hold for the moment, but I'll get an ulcer if I have to keep worrying. If you reconsider let me know.",
+	      "advice": "Grocery stores, house kitchens, there's plenty of places to look.",
+	      "inquire": "How is the search going?",
+	      "success": "That's one less thing to worry about. Glad to have someone like you on our side.",
+	      "success_lie": "What good does this do us?",
+	      "failure": "It was a lost cause anyways..."
+	    }
+
+ }
+]
