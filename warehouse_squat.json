@@ -2,7 +2,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "warehouse" ],
+    "om_terrain": [ "warehouse_squat" ],
     "weight": 500,
     "object": {
 	"faction_owner": [
