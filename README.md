@@ -16,6 +16,8 @@ Todo:
 	~Missions to upgrade warehouse aesthetically as well as the security of the building
 	~Assassinate a member of the Old Guard (Possibly representative in the Free Merchants building).
 	~Find Lost Friends.
+	
+	~Gather Materials to forge some faction currency.
 
 
 -Add other mostly written NPCs
