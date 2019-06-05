@@ -155,9 +155,6 @@
       { "x": -6, "y": -1, "part": "board_sw" },
       { "x": -6, "y": -1, "part": "roof" }
     ],
-    "items": [
-
-      { "x": -5, "y": 2, "chance": 15, "items": [ "jack", "wheel_wide" ] }
-    ]
+    "items": [ { "x": -5, "y": 2, "chance": 15, "items": [ "jack", "wheel_wide" ] } ]
   }
 ]

@@ -7,16 +7,14 @@
     "class": "NC_SURVIVOR_CHEF",
     "attitude": 0,
     "mission": 7,
-    "chat": "TALK_SQUAT_CHEF"
+    "chat": "TALK_SQUAT_CHEF",
+    "faction": "robofac",
+    "mission_offered": "MISSION_SQUATTERS_CANNEDGOODS"
   },
   {
     "type": "talk_topic",
     "id": "TALK_SQUAT_CHEF",
-    "dynamic_line": {
-      "u_is_wearing": "badge_marshal",
-      "yes": "Get out, copper..",
-      "no": "Heh, stranger, how's it goin'?"
-    },
+    "dynamic_line": { "u_is_wearing": "badge_marshal", "yes": "Get out, copper..", "no": "Heh, stranger, how's it goin'?" },
     "responses": [
       { "text": "This place is nice, what's the story?", "topic": "TALK_SQUAT_CHEF_BUILDING" },
       { "text": "What are you doing here?", "topic": "TALK_SQUAT_CHEF_DOING" },
@@ -31,7 +29,7 @@
     "dynamic_line": "Well, believe it or not we broke this place before the shit went down. We secured it against the pigs but when ..whatever happened, happened it was a godsend. Most of us were on the street until this place, We'd likely all be dead if it wasn't for this old warehouse.",
     "responses": [ { "text": "That's Interesting...", "topic": "TALK_SQUAT_CHEF" } ]
   },
-    {
+  {
     "type": "talk_topic",
     "id": "TALK_SQUAT_CHEF_DOING",
     "dynamic_line": "I spend most my time inside, Luckily i can make magic with some canned goods and a bit of meat if the others can get it..",
@@ -40,12 +38,10 @@
       { "text": "Need any help with that?", "topic": "TALK_MISSION_LIST" }
     ]
   },
-    {
+  {
     "type": "talk_topic",
     "id": "TALK_SQUAT_CHEF_WORLD",
     "dynamic_line": "You're probably best to ask the others about that, like i said, i don't spend much time outside.. Aside from the zed's I hear many of the survivors don't take well too ..whatever is happening to me.",
-    "responses": [
-      { "text": "Yea... It's probably for the best. It's hairy out there.", "topic": "TALK_SQUAT_CHEF" }
-      ]
+    "responses": [ { "text": "Yea... It's probably for the best. It's hairy out there.", "topic": "TALK_SQUAT_CHEF" } ]
   }
 ]
