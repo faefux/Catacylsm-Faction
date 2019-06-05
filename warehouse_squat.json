@@ -2,9 +2,12 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "squat" ],
+    "om_terrain": [ "warehouse" ],
     "weight": 500,
     "object": {
+	"faction_owner": [
+       { "id": "outsiders", "x": [ 1, 23 ], "y": [ 2, 22 ] }
+       ],
       "fill_ter": "t_floor",
       "rows": [
         "....S.SSSSSSSSSSSS......",
@@ -23,15 +26,18 @@
         ".|9NN6                |.",
         ".|9NN  I              |.",
         ".|-  55-              |.",
-        ".|5    |@       I I II|.",
-        ".|5    |      IIII   B|.",
-        ".OS   5|c#    IR      |.",
-        ".|G   5|~##1  IR I   B|.",
-        "z|5@555|~ #111IPRI B B|z",
+        ".|5    |@      I IIIII|.",
+        ".|5    |      II     B|.",
+        ".OS   5|c#    IR RI   |.",
+        ".|G   5|~##1  IR RI  B|.",
+        "z|5@555|~ #11 IPRRIB B|z",
         "z---O------------------z",
         "z^^zzzz^^zz^^zz^^zzzz^^z",
         "zzzz..zzzzzzzzzzzz..zzzz"
       ],
+      "place_zones": [
+        { "type": "NPC_INVESTIGATE_ONLY", "faction": "outsiders", "x": [ 1, 23 ], "y": [ 2, 22 ] }
+              ],
       "set": [
         { "point": "terrain", "id": "t_dirt", "x": 23, "y": [ 0, 23 ], "repeat": [ 5, 10 ] },
         { "point": "terrain", "id": "t_dirt", "x": [ 0, 23 ], "y": 23, "repeat": [ 5, 8 ] },
@@ -42,7 +48,7 @@
         { "point": "terrain", "id": "t_tree_pine", "x": 0, "y": [ 2, 19 ], "repeat": [ 0, 2 ] },
         { "point": "terrain", "id": "t_tree_pine", "x": 23, "y": [ 2, 19 ], "repeat": [ 0, 2 ] },
         { "point": "trap", "id": "tr_funnel", "x": 6, "y": 1 },
-        { "point": "trap", "id": "tr_cot", "x": 22, "y": 24 },
+        { "point": "trap", "id": "tr_cot", "x": 13, "y": 20 },
         { "point": "trap", "id": "tr_rollmat", "x": 9, "y": 20 }
       ],
       "terrain": {
@@ -96,7 +102,7 @@
       "toilets": { "4": {  } },
       "place_items": [
         { "item": "home_hw", "x": [ 3, 20 ], "y": [ 3, 20 ], "chance": 4 },
-        { "item": "cannedfood", "x": [ 2 ], "y": [ 18 ], "chance": 20 },
+        { "item": "cannedfood", "x": [ 2 ], "y": [ 16 ], "chance": 100 },
         { "item": "softdrugs", "x": [ 3 ], "y": [ 12 ], "chance": 100 },
         { "item": "bed", "x": [ 9 ], "y": [ 20 ], "chance": 100 },
         { "item": "bed", "x": [ 15 ], "y": [ 20 ], "chance": 100 },
@@ -104,12 +110,19 @@
         { "item": "bed", "x": [ 21 ], "y": [ 20 ], "chance": 100 },
         { "item": "bed", "x": [ 21 ], "y": [ 19 ], "chance": 100 },
         { "item": "bed", "x": [ 21 ], "y": [ 17 ], "chance": 100 }
+       ],
+      "place_loot" : [
+        { "group": "homebooks", "chance": 80, "repeat": [ 8 ], "x": [ 2 , 4 ], "y": [ 9 ] }
+		
       ],
       "place_npcs": [
-        { "class": "squat_chef", "x": 5, "y": 16 }
+        { "class": "squat_chef", "x": 6, "y": 16 },
+        { "class": "squat_hacker", "x": 2, "y": 13 }
+
       ],
       "place_vehicles": [
-        { "vehicle": "bicycle", "x": 2, "y": 1, "chance": 100 }
+        { "vehicle": "bicycle", "x": 2, "y": 1, "chance": 100 },
+        { "vehicle": "squat_rv", "x": 20, "y": 13, "chance": 100, "rotation": 90 }
       ]
     }
   }
